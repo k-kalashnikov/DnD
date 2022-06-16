@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD.PlayerApplication", "DnD.PlayerApplication\DnD.PlayerApplication.csproj", "{BF374678-D9DD-4AFB-8CB0-218A39AA7632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnD.PlayerApplication", "DnD.PlayerApplication\DnD.PlayerApplication.csproj", "{BF374678-D9DD-4AFB-8CB0-218A39AA7632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD.MasterApplication", "DnD.MasterApplication\DnD.MasterApplication.csproj", "{E7DF7050-0863-4CE9-8821-04635D7FA143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnD.MasterApplication", "DnD.MasterApplication\DnD.MasterApplication.csproj", "{E7DF7050-0863-4CE9-8821-04635D7FA143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD.WebApi", "DnD.WebApi\DnD.WebApi.csproj", "{F299DDBF-8329-46A4-8522-912CFE7E82EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD.Common", "DnD.Common\DnD.Common.csproj", "{236A5E8F-EAC7-4B62-A0B6-FD4533D3CDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD.Application", "DnD.Application\DnD.Application.csproj", "{204CB110-20C1-4E23-B85C-DE083697130A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD.Infrastructure", "DnD.Infrastructure\DnD.Infrastructure.csproj", "{77F4E058-BD4C-47C2-A61F-C96E589A8E14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,22 @@ Global
 		{E7DF7050-0863-4CE9-8821-04635D7FA143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7DF7050-0863-4CE9-8821-04635D7FA143}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7DF7050-0863-4CE9-8821-04635D7FA143}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F299DDBF-8329-46A4-8522-912CFE7E82EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F299DDBF-8329-46A4-8522-912CFE7E82EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F299DDBF-8329-46A4-8522-912CFE7E82EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F299DDBF-8329-46A4-8522-912CFE7E82EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236A5E8F-EAC7-4B62-A0B6-FD4533D3CDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236A5E8F-EAC7-4B62-A0B6-FD4533D3CDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236A5E8F-EAC7-4B62-A0B6-FD4533D3CDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236A5E8F-EAC7-4B62-A0B6-FD4533D3CDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204CB110-20C1-4E23-B85C-DE083697130A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204CB110-20C1-4E23-B85C-DE083697130A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204CB110-20C1-4E23-B85C-DE083697130A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204CB110-20C1-4E23-B85C-DE083697130A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F4E058-BD4C-47C2-A61F-C96E589A8E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F4E058-BD4C-47C2-A61F-C96E589A8E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F4E058-BD4C-47C2-A61F-C96E589A8E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F4E058-BD4C-47C2-A61F-C96E589A8E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
