@@ -18,7 +18,6 @@ namespace DnD.Infrastructure
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(currentPath)
                 .AddJsonFile("appsettings.json")
-                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json")
                 .Build();
 
             var connectionString = configuration.GetConnectionString("SqliteConnectionString");

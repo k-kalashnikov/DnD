@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DnD.Infrastructure.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DnD.Infrastructure
 {
@@ -8,5 +9,7 @@ namespace DnD.Infrastructure
         {
 
         }
+
+        public DbSet<UserModel> Users { get; set; }
     }
 }
